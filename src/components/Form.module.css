@@ -1,0 +1,45 @@
+.tofoform{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgb(0,0,0 , 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 1% 2%; 
+
+}
+
+.modernInput{
+    flex: 1;
+    width: 60%;
+    display: block;
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    
+}
+
+.modernInput:focus{
+    outline: none;
+}
+
+.modernButton{
+    display: inline-block;
+    border:none;
+    border-radius: 5px;
+    background-color: yellow;
+    display: inline;
+    cursor: pointer;
+    padding: 1% 2%; 
+    transition: background-color 0.3s ease; 
+
+}
+.modernButton:hover {
+    background-color: orange;
+    color: red;
+    box-shadow: 0 4px 6px rgb(0,0,0 , 0.2);
+}

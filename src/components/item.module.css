@@ -1,0 +1,48 @@
+.list{
+    font-size: large;
+    margin: 0;    
+    padding: 0%;
+
+}
+
+.listName{
+    font-weight: bold;
+    width: 80%;
+    float: left;
+    
+
+}
+
+.line{
+    border: 1px solid wheat;
+}
+
+
+
+.DeleteButton{
+   
+    width: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.button{
+    border:none;
+    border-radius: 5px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-content: center; 
+    padding: 0.5% 15%;
+}
+.button:hover {
+    background-color: orange;
+    color: red;
+    box-shadow: 0 4px 6px rgb(0,0,0 , 0.2);
+}
+
+.completed{
+    text-decoration: line-through;
+}
